@@ -1,0 +1,9 @@
+languaje: html
+html:
+ - "3.7-dev"
+ # command to install dependencies
+install:
+  - pip install -r requerements.txt
+  # command to run test
+script:
+   - pytest
